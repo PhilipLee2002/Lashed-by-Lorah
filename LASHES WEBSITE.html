@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lashed by Lorah - Luxury Lash & Waxing Services</title>
+    <meta name="description" content="Professional lash extensions and waxing services in Nairobi. Book your appointment today for premium beauty treatments.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-purple-900 text-white sticky top-0 z-50 shadow-lg" data-aos="fade-down">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold flex items-center">
+                    <i class="fas fa-eye mr-2"></i> Lashed by Lorah
+                </a>
+                
+                <button id="mobile-menu-button" class="md:hidden focus:outline-none" title="Open menu" aria-label="Open menu">
+                    <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+                </button>
+                
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="hover:text-purple-200 transition">Home</a>
+                    <a href="#services" class="hover:text-purple-200 transition">Services</a>
+                    <a href="#pricing" class="hover:text-purple-200 transition">Pricing</a>
+                    <a href="#about" class="hover:text-purple-200 transition">About</a>
+                    <a href="#gallery" class="hover:text-purple-200 transition">Gallery</a>
+                    <a href="#contact" class="bg-white text-purple-900 px-6 py-2 rounded-full hover:bg-purple-100 transition font-bold shadow-md hover:shadow-lg">
+                        <i class="fas fa-calendar-check mr-2"></i> Book Now
+                    </a>
+                </div>
+            </div>
+            
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-2">
+                <a href="#home" class="block py-2 hover:bg-purple-800 px-2 rounded">Home</a>
+                <a href="#services" class="block py-2 hover:bg-purple-800 px-2 rounded">Services</a>
+                <a href="#pricing" class="block py-2 hover:bg-purple-800 px-2 rounded">Pricing</a>
+                <a href="#about" class="block py-2 hover:bg-purple-800 px-2 rounded">About</a>
+                <a href="#gallery" class="block py-2 hover:bg-purple-800 px-2 rounded">Gallery</a>
+                <a href="#contact" class="block bg-white text-purple-900 py-2 px-4 rounded-full mt-2 text-center font-bold">
+                    <i class="fas fa-calendar-check mr-2"></i> Book Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero min-h-screen flex items-center justify-center text-white" data-aos="fade">
+    <div class="container mx-auto px-4 text-center bg-purple-900 rounded-3xl shadow-xl py-20">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Lashed by Lorah</h1>
+            <p class="text-2xl md:text-3xl mb-8 max-w-2xl mx-auto">Enhance your natural beauty with our premium lash & waxing services</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="bg-purple-900 hover:bg-purple-800 text-white px-8 py-4 rounded-full text-lg font-semibold transition inline-block shadow-lg hover:shadow-xl">
+                    <i class="fas fa-calendar-alt mr-2"></i> Book Appointment
+                </a>
+                <a href="#services" class="bg-white hover:bg-gray-100 text-purple-900 px-8 py-4 rounded-full text-lg font-semibold transition inline-block shadow-lg hover:shadow-xl">
+                    <i class="fas fa-spa mr-2 text-purple-900"></i> <span class="text-purple-900">Our Services</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section class="py-16 bg-purple-50" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-4">Our Featured Services</h2>
+            <p class="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">Premium beauty treatments designed to enhance your natural features</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition hover:border-purple-500 border-2 border-transparent">
+                    <div class="text-purple-900 mb-4 text-center">
+                        <i class="fas fa-eye text-5xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-center">Classic Lashes</h3>
+                    <p class="text-gray-600 mb-4 text-center">Natural, elegant look with one extension per natural lash for subtle enhancement.</p>
+                    <div class="text-center">
+                        <a href="#services" class="text-purple-900 font-semibold hover:underline inline-flex items-center">
+                            Learn More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition hover:border-purple-500 border-2 border-transparent">
+                    <div class="text-purple-900 mb-4 text-center">
+                        <i class="fas fa-eye-dropper text-5xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-center">Volume Lashes</h3>
+                    <p class="text-gray-600 mb-4 text-center">Dramatic, full look with multiple lightweight extensions per natural lash.</p>
+                    <div class="text-center">
+                        <a href="#services" class="text-purple-900 font-semibold hover:underline inline-flex items-center">
+                            Learn More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition hover:border-purple-500 border-2 border-transparent">
+                    <div class="text-purple-900 mb-4 text-center">
+                        <i class="fas fa-spa text-5xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-center">Brow Waxing</h3>
+                    <p class="text-gray-600 mb-4 text-center">Professional brow shaping for perfectly defined, natural-looking eyebrows.</p>
+                    <div class="text-center">
+                        <a href="#services" class="text-purple-900 font-semibold hover:underline inline-flex items-center">
+                            Learn More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition hover:border-purple-500 border-2 border-transparent">
+                    <div class="text-purple-900 mb-4 text-center">
+                        <i class="fas fa-fire text-5xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-center">Brazilian Wax</h3>
+                    <p class="text-gray-600 mb-4 text-center">Complete bikini wax for smooth, hair-free skin with lasting results.</p>
+                    <div class="text-center">
+                        <a href="#services" class="text-purple-900 font-semibold hover:underline inline-flex items-center">
+                            Learn More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Carousel -->
+    <section class="py-16 bg-purple-900 text-white" data-aos="fade-up">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12">What Our Clients Say</h2>
+            
+            <div class="relative max-w-4xl mx-auto">
+                <div class="testimonial-slide active">
+                    <i class="fas fa-quote-left text-4xl text-purple-300 mb-6"></i>
+                    <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-8">"Lorah transformed my lashes! The attention to detail and care she puts into her work is unmatched. I've never felt more confident."</p>
+                    <div class="flex items-center justify-center">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah M." class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div class="text-left">
+                            <p class="font-semibold">Sarah M.</p>
+                            <p class="text-purple-300 text-sm">Regular Client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <i class="fas fa-quote-left text-4xl text-purple-300 mb-6"></i>
+                    <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-8">"The most comfortable waxing experience I've ever had. Lorah makes sure you're at ease throughout the entire process."</p>
+                    <div class="flex items-center justify-center">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Grace W." class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div class="text-left">
+                            <p class="font-semibold">Grace W.</p>
+                            <p class="text-purple-300 text-sm">Monthly Client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <i class="fas fa-quote-left text-4xl text-purple-300 mb-6"></i>
+                    <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-8">"My hybrid lashes get compliments every day! Lorah is truly an artist who understands exactly what look you're going for."</p>
+                    <div class="flex items-center justify-center">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Jamila K." class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div class="text-left">
+                            <p class="font-semibold">Jamila K.</p>
+                            <p class="text-purple-300 text-sm">First-Time Client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center mt-8 space-x-2">
+                    <button class="testimonial-dot w-3 h-3 rounded-full bg-purple-300 focus:outline-none active" aria-label="View testimonial 1"></button>
+                    <button class="testimonial-dot w-3 h-3 rounded-full bg-purple-300 focus:outline-none" aria-label="View testimonial 2"></button>
+                    <button class="testimonial-dot w-3 h-3 rounded-full bg-purple-300 focus:outline-none" aria-label="View testimonial 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-4">Our Services</h2>
+            <p class="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">Professional beauty treatments tailored to your needs</p>
+            
+            <div class="mb-16">
+                <h3 class="text-3xl font-semibold mb-8 text-purple-900 border-b-2 border-purple-200 pb-2 flex items-center">
+                    <i class="fas fa-eye mr-3"></i> Lash Services
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-star text-purple-500 mr-2 text-sm"></i> Classic Set
+                        </h4>
+                        <p class="text-gray-600 mb-3">Natural look with one extension per natural lash.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 2,000</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">60-90 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-star text-purple-500 mr-2 text-sm"></i> Hybrid Set
+                        </h4>
+                        <p class="text-gray-600 mb-3">Mix of classic and volume for a fuller look.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 2,500</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">90-120 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-star text-purple-500 mr-2 text-sm"></i> Volume Set
+                        </h4>
+                        <p class="text-gray-600 mb-3">Multiple lightweight extensions per natural lash.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 3,000</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">120-150 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-sync-alt text-purple-500 mr-2 text-sm"></i> Lash Fill (2-3 weeks)
+                        </h4>
+                        <p class="text-gray-600 mb-3">Maintain your lashes with a refill.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 1,500</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">45-60 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-minus-circle text-purple-500 mr-2 text-sm"></i> Lash Removal
+                        </h4>
+                        <p class="text-gray-600 mb-3">Safe removal of lash extensions.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 500</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">30 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-bath text-purple-500 mr-2 text-sm"></i> Lash Bath
+                        </h4>
+                        <p class="text-gray-600 mb-3">Deep cleaning for your lash extensions.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 800</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">15 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-16">
+                <h3 class="text-3xl font-semibold mb-8 text-purple-900 border-b-2 border-purple-200 pb-2 flex items-center">
+                    <i class="fas fa-spa mr-3"></i> Waxing Services
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-eye-brow text-purple-500 mr-2 text-sm"></i> Eyebrow Wax
+                        </h4>
+                        <p class="text-gray-600 mb-3">Perfectly shaped brows.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 800</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">15 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-lips text-purple-500 mr-2 text-sm"></i> Upper Lip Wax
+                        </h4>
+                        <p class="text-gray-600 mb-3">Smooth upper lip area.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 600</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">10 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-user text-purple-500 mr-2 text-sm"></i> Chin Wax
+                        </h4>
+                        <p class="text-gray-600 mb-3">Hair-free chin.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 700</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">10 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-tshirt text-purple-500 mr-2 text-sm"></i> Underarm Wax
+                        </h4>
+                        <p class="text-gray-600 mb-3">Smooth underarms.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 1,200</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">20 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-walking text-purple-500 mr-2 text-sm"></i> Full Leg Wax
+                        </h4>
+                        <p class="text-gray-600 mb-3">Smooth legs from top to toe.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 2,500</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">45 mins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-white p-6 rounded-lg shadow-md border border-gray-100 transition hover:border-purple-500">
+                        <h4 class="text-xl font-bold mb-2 flex items-center">
+                            <i class="fas fa-fire text-purple-500 mr-2 text-sm"></i> Brazilian Wax
+                        </h4>
+                        <p class="text-gray-600 mb-3">Complete bikini wax.</p>
+                        <p class="text-purple-900 font-bold text-lg">KES 2,800</p>
+                        <div class="mt-4">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">30 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-purple-100 p-8 rounded-lg border-l-4 border-purple-500">
+                <div class="flex items-start">
+                    <i class="fas fa-exclamation-circle text-purple-900 text-2xl mr-4 mt-1"></i>
+                    <div>
+                        <h4 class="text-xl font-bold text-purple-900 mb-3">Important Notes</h4>
+                        <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                            <li>60% of lashes should be on for refills (2–3 weeks)</li>
+                            <li>Past 4 weeks requires a full set</li>
+                            <li>Please arrive with clean, makeup-free lashes for your appointment</li>
+                            <li>24-hour cancellation policy applies to all appointments</li>
+                            <li>Patch test required 48 hours prior to first waxing service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-purple-50" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-4">Pricing Guide</h2>
+            <p class="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">Transparent pricing for all our premium services</p>
+            
+            <div class="max-w-6xl mx-auto overflow-x-auto">
+                <table class="w-full bg-white rounded-lg overflow-hidden shadow-md">
+                    <thead class="bg-purple-900 text-white">
+                        <tr>
+                            <th class="py-4 px-6 text-left">Service</th>
+                            <th class="py-4 px-6 text-left">Description</th>
+                            <th class="py-4 px-6 text-right">Duration</th>
+                            <th class="py-4 px-6 text-right">Price (KES)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-200">
+                            <td colspan="4" class="py-3 px-6 font-bold bg-purple-100 text-purple-900 text-lg">Lash Services</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Classic Set</td>
+                            <td class="py-4 px-6">Natural look with one extension per natural lash</td>
+                            <td class="py-4 px-6 text-right">60-90 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">2,000</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Hybrid Set</td>
+                            <td class="py-4 px-6">Mix of classic and volume for a fuller look</td>
+                            <td class="py-4 px-6 text-right">90-120 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">2,500</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Volume Set</td>
+                            <td class="py-4 px-6">Multiple lightweight extensions per natural lash</td>
+                            <td class="py-4 px-6 text-right">120-150 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">3,000</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Lash Fill (2-3 weeks)</td>
+                            <td class="py-4 px-6">Maintain your lashes with a refill</td>
+                            <td class="py-4 px-6 text-right">45-60 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">1,500</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Lash Removal</td>
+                            <td class="py-4 px-6">Safe removal of lash extensions</td>
+                            <td class="py-4 px-6 text-right">30 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">500</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Lash Bath</td>
+                            <td class="py-4 px-6">Deep cleaning for your lash extensions</td>
+                            <td class="py-4 px-6 text-right">15 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">800</td>
+                        </tr>
+                        
+                        <tr class="border-b border-gray-200">
+                            <td colspan="4" class="py-3 px-6 font-bold bg-purple-100 text-purple-900 text-lg">Waxing Services</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Eyebrow Wax</td>
+                            <td class="py-4 px-6">Perfectly shaped brows</td>
+                            <td class="py-4 px-6 text-right">15 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">800</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Upper Lip Wax</td>
+                            <td class="py-4 px-6">Smooth upper lip area</td>
+                            <td class="py-4 px-6 text-right">10 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">600</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Chin Wax</td>
+                            <td class="py-4 px-6">Hair-free chin</td>
+                            <td class="py-4 px-6 text-right">10 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">700</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Underarm Wax</td>
+                            <td class="py-4 px-6">Smooth underarms</td>
+                            <td class="py-4 px-6 text-right">20 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">1,200</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Full Leg Wax</td>
+                            <td class="py-4 px-6">Smooth legs from top to toe</td>
+                            <td class="py-4 px-6 text-right">45 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">2,500</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-purple-50">
+                            <td class="py-4 px-6 font-medium">Brazilian Wax</td>
+                            <td class="py-4 px-6">Complete bikini wax</td>
+                            <td class="py-4 px-6 text-right">30 mins</td>
+                            <td class="py-4 px-6 text-right font-bold">2,800</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <a href="#contact" class="inline-block bg-purple-900 hover:bg-purple-800 text-white px-8 py-3 rounded-full text-lg font-semibold transition shadow-lg hover:shadow-xl">
+                    <i class="fas fa-calendar-check mr-2"></i> Book Your Service
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8" data-aos="fade-right">
+                    <div class="relative">
+                        <img src="images/laura bio pic.jpg" alt="Lorah" class="rounded-lg shadow-xl w-full">
+                        <div class="absolute -bottom-4 -right-4 bg-purple-900 text-white p-4 rounded-lg shadow-lg">
+                            <p class="text-xl font-bold">5+ Years</p>
+                            <p class="text-sm">Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2" data-aos="fade-left">
+                    <h2 class="text-4xl font-bold mb-6">Meet Lorah</h2>
+                    <p class="text-lg mb-6 leading-relaxed">Certified lash artist and waxing specialist with a passion for enhancing natural beauty. My journey in the beauty industry began over 5 years ago, and since then I've dedicated myself to perfecting my craft and providing exceptional service to every client.</p>
+                    
+                    <div class="mb-6">
+                        <h3 class="text-xl font-bold mb-3 text-purple-900 flex items-center">
+                            <i class="fas fa-certificate mr-2"></i> Certifications
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-500 mt-1 mr-2"></i>
+                                <span>Advanced Lash Extension Certification (2020)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-500 mt-1 mr-2"></i>
+                                <span>Professional Waxing Specialist (2019)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-500 mt-1 mr-2"></i>
+                                <span>Sanitation & Safety Certification (2021)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
+                        <h3 class="text-xl font-bold mb-3 text-purple-900 flex items-center">
+                            <i class="fas fa-heart mr-2"></i> My Philosophy
+                        </h3>
+                        <p class="italic">"Beauty should enhance your natural features, not mask them. My goal is to help you look and feel your best with treatments that complement your unique beauty."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-purple-50" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-4">Our Work</h2>
+            <p class="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">Browse our portfolio of stunning transformations</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="gallery-item cursor-pointer relative group">
+                    <img src="images/classic.jpeg" alt="Classic lash extensions" class="rounded-lg w-full h-64 object-cover" onclick="openModal(this.src, 'Classic Lash Extensions')">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+                        <span class="text-white font-bold text-lg">Classic Lashes</span>
+                    </div>
+                </div>
+                <div class="gallery-item cursor-pointer relative group">
+                    <img src="images/volume.jpeg" alt="Volume lash extensions" class="rounded-lg w-full h-64 object-cover" onclick="openModal(this.src, 'Volume Lash Extensions')">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+                        <span class="text-white font-bold text-lg">Volume Lashes</span>
+                    </div>
+                </div>
+                <div class="gallery-item cursor-pointer relative group">
+                    <img src="images/hybrid.jpeg" alt="Hybrid lash extensions" class="rounded-lg w-full h-64 object-cover" onclick="openModal(this.src, 'Hybrid Lash Extensions')">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+                        <span class="text-white font-bold text-lg">Hybrid Lashes</span>
+                    </div>
+                </div>
+                <div class="gallery-item cursor-pointer relative group">
+                    <img src="images/brow waxing.jpeg" alt="Eyebrow waxing" class="rounded-lg w-full h-64 object-cover" onclick="openModal(this.src, 'Eyebrow Waxing')">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+                        <span class="text-white font-bold text-lg">Brow Waxing</span>
+                    </div>
+                </div>
+                <div class="gallery-item cursor-pointer relative group">
+                    <img src="images/underarm wax.jpg" alt="Underarm waxing" class="rounded-lg w-full h-64 object-cover" onclick="openModal(this.src, 'Underarm Waxing')">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+                        <span class="text-white font-bold text-lg">Underarm Wax</span>
+                    </div>
+                </div>
+                <div class="gallery-item cursor-pointer relative group">
+                    <img src="images/brazilian.jpeg" alt="Brazilian waxing" class="rounded-lg w-full h-64 object-cover" onclick="openModal(this.src, 'Brazilian Waxing')">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+                        <span class="text-white font-bold text-lg">Brazilian Wax</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://www.instagram.com/lashed_by_lorah" target="_blank" rel="noopener" class="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition">
+                    <i class="fab fa-instagram mr-2 text-xl"></i> See More on Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-purple-900 text-white" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-4">Book Your Appointment</h2>
+            <p class="text-xl text-center text-purple-200 mb-12 max-w-2xl mx-auto">Ready to enhance your natural beauty? Contact us today!</p>
+            
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <div class="bg-white rounded-2xl shadow-xl p-8 contact-info-card">
+                        <h3 class="text-2xl font-bold mb-6 text-purple-900" style="font-family: 'Playfair Display', serif;">Contact Information</h3>
+                        <ul class="space-y-6">
+                            <li class="flex items-start">
+                                <span class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 mr-4">
+                                    <i class="fas fa-map-marker-alt text-purple-700 text-2xl"></i>
+                                </span>
+                                <div>
+                                    <span class="font-bold text-lg text-purple-900" style="font-family: 'Poppins', sans-serif;">Location</span><br>
+                                    <span class="text-gray-800">Carey Spa, Uniafric House, 2nd Floor, Koinange Street, Nairobi</span><br>
+                                    <a href="#" class="text-purple-700 hover:underline text-sm font-semibold">View on Map</a>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 mr-4">
+                                    <i class="fas fa-phone-alt text-purple-700 text-2xl"></i>
+                                </span>
+                                <div>
+                                    <span class="font-bold text-lg text-purple-900" style="font-family: 'Poppins', sans-serif;">Phone/WhatsApp</span><br>
+                                    <span class="text-gray-800">+254 722 233 071</span><br>
+                                    <a href="tel:+254722233071" class="inline-block mt-2 mr-2 px-4 py-2 rounded-full bg-purple-800 text-white font-semibold text-sm shadow hover:bg-purple-900 transition"><i class="fas fa-phone-alt mr-1"></i> Call Now</a>
+                                    <a href="https://wa.me/254722233071" target="_blank" rel="noopener" class="inline-block mt-2 px-4 py-2 rounded-full bg-green-500 text-white font-semibold text-sm shadow hover:bg-green-600 transition"><i class="fab fa-whatsapp mr-1"></i> WhatsApp</a>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 mr-4">
+                                    <i class="fab fa-instagram text-pink-600 text-2xl"></i>
+                                </span>
+                                <div>
+                                    <span class="font-bold text-lg text-purple-900" style="font-family: 'Poppins', sans-serif;">Instagram</span><br>
+                                    <span class="text-gray-800">@lashed_by_lorah</span><br>
+                                    <a href="https://www.instagram.com/lashed_by_lorah" target="_blank" rel="noopener" class="text-pink-600 hover:underline text-sm font-semibold">Follow Us</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mt-8 p-6 rounded-lg" style="background: #f6f1ff;">
+                            <span class="font-bold text-purple-900 text-lg mb-4 block" style="font-family: 'Playfair Display', serif;">Business Hours</span>
+                            <table class="w-full text-gray-800 text-base">
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td class="text-right">9:00 AM – 6:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td class="text-right">10:00 AM – 4:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td class="text-right text-red-500 font-semibold">Closed</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-gray-800">
+                        <h3 class="text-2xl font-bold mb-6 text-purple-900">Send Us a Message</h3>
+                        <form id="contact-form" class="space-y-4">
+                            <div>
+                                <label for="name" class="block mb-2 font-medium">Full Name *</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-900 focus:border-purple-900 outline-none transition" placeholder="Your name">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block mb-2 font-medium">Email *</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-900 focus:border-purple-900 outline-none transition" placeholder="your@email.com">
+                            </div>
+                            
+                            <div>
+                                <label for="phone" class="block mb-2 font-medium">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-900 focus:border-purple-900 outline-none transition" placeholder="07XX XXX XXX">
+                            </div>
+                            
+                            <div>
+                                <label for="service" class="block mb-2 font-medium">Service Interested In *</label>
+                                <select id="service" name="service" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-900 focus:border-purple-900 outline-none transition">
+                                    <option value="">Select a service</option>
+                                    <optgroup label="Lash Services">
+                                        <option value="Classic Set">Classic Set</option>
+                                        <option value="Hybrid Set">Hybrid Set</option>
+                                        <option value="Volume Set">Volume Set</option>
+                                        <option value="Lash Fill">Lash Fill</option>
+                                        <option value="Lash Removal">Lash Removal</option>
+                                    </optgroup>
+                                    <optgroup label="Waxing Services">
+                                        <option value="Eyebrow Wax">Eyebrow Wax</option>
+                                        <option value="Upper Lip Wax">Upper Lip Wax</option>
+                                        <option value="Underarm Wax">Underarm Wax</option>
+                                        <option value="Full Leg Wax">Full Leg Wax</option>
+                                        <option value="Brazilian Wax">Brazilian Wax</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label for="date" class="block mb-2 font-medium">Preferred Date *</label>
+                                <input type="date" id="date" name="date" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-900 focus:border-purple-900 outline-none transition">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block mb-2 font-medium">Additional Notes</label>
+                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-900 focus:border-purple-900 outline-none transition" placeholder="Any special requests or questions..."></textarea>
+                            </div>
+                            
+                            <div class="pt-2">
+                                <button type="submit" class="bg-purple-900 hover:bg-purple-800 text-white px-8 py-4 rounded-full font-bold transition w-full shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-paper-plane mr-2"></i> Send Booking Request
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <div id="form-success" class="hidden mt-4 p-4 bg-green-100 text-green-800 rounded-lg">
+                            <i class="fas fa-check-circle mr-2"></i> Thank you for your message! We'll contact you shortly to confirm your appointment.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-purple-950 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Lashed by Lorah</h3>
+                    <p class="mb-4">Premium lash and waxing services in Nairobi. Enhancing your natural beauty with expert care.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/lashed_by_lorah" target="_blank" rel="noopener" class="text-white hover:text-purple-300 text-xl transition" title="Instagram" aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/254722233071" target="_blank" rel="noopener" class="text-white hover:text-purple-300 text-xl transition" title="WhatsApp" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.facebook.com/lashed_by_lorah" target="_blank" rel="noopener" class="text-white hover:text-purple-300 text-xl transition" title="Facebook" aria-label="Facebook">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-purple-300 transition">Home</a></li>
+                        <li><a href="#services" class="hover:text-purple-300 transition">Services</a></li>
+                        <li><a href="#pricing" class="hover:text-purple-300 transition">Pricing</a></li>
+                        <li><a href="#about" class="hover:text-purple-300 transition">About</a></li>
+                        <li><a href="#gallery" class="hover:text-purple-300 transition">Gallery</a></li>
+                        <li><a href="#contact" class="hover:text-purple-300 transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="hover:text-purple-300 transition">Lash Extensions</a></li>
+                        <li><a href="#services" class="hover:text-purple-300 transition">Lash Fills</a></li>
+                        <li><a href="#services" class="hover:text-purple-300 transition">Eyebrow Waxing</a></li>
+                        <li><a href="#services" class="hover:text-purple-300 transition">Facial Waxing</a></li>
+                        <li><a href="#services" class="hover:text-purple-300 transition">Body Waxing</a></li>
+                        <li><a href="#services" class="hover:text-purple-300 transition">Brazilian Wax</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-purple-300 transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-purple-300 transition">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-purple-300 transition">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-purple-800 mt-8 pt-8 text-center">
+                <p>&copy; 2025 Lashed by Lorah. All Rights Reserved.</p>
+                <p class="text-sm text-purple-300 mt-2"><span class="italic">Done by Twist</span> with <i class="fas fa-heart text-red-400"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 opacity-0 invisible transition duration-300">
+        <div class="relative max-w-5xl w-full p-4">
+            <button onclick="closeModal()" class="absolute -top-12 right-0 text-white text-3xl hover:text-purple-300 transition" title="Close image modal" aria-label="Close image modal">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+            <div class="bg-white p-4 rounded-lg max-h-screen overflow-auto">
+                <img id="modal-image" src="" alt="" class="w-full object-contain max-h-[80vh]">
+                <p id="modal-caption" class="text-center mt-4 text-lg font-medium text-gray-800"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <a href="https://wa.me/254722233071?text=Hello%20Lashed%20by%20Lorah%2C%20I%27d%20like%20to%20book%20a%20service." class="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-xl transition transform hover:scale-110" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp text-3xl" aria-hidden="true"></i>
+        </a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            duration: 800,
+            once: true,
+            easing: 'ease-in-out'
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenuButton.innerHTML = mobileMenu.classList.contains('hidden') ? 
+                '<i class="fas fa-bars text-2xl" aria-hidden="true"></i>' : 
+                '<i class="fas fa-times text-2xl" aria-hidden="true"></i>';
+        });
+        
+        // Testimonial carousel
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial-slide');
+        const dots = document.querySelectorAll('.testimonial-dot');
+        
+        function showTestimonial(index) {
+            testimonials.forEach(testimonial => testimonial.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            testimonials[index].classList.add('active');
+            dots[index].classList.add('active');
+            currentTestimonial = index;
+        }
+        
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => showTestimonial(index));
+        });
+        
+        // Auto-rotate testimonials
+        setInterval(() => {
+            let nextTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(nextTestimonial);
+        }, 5000);
+        
+        // Form validation
+        const contactForm = document.getElementById('contact-form');
+        const formSuccess = document.getElementById('form-success');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const service = document.getElementById('service').value;
+            const date = document.getElementById('date').value;
+            
+            // Simple validation
+            if (!name || !email || !phone || !service || !date) {
+                alert('Please fill in all required fields');
+                return;
+            }
+            
+            if (!email.includes('@')) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            
+            // In a real implementation, you would send this data to a server
+            contactForm.reset();
+            contactForm.classList.add('hidden');
+            formSuccess.classList.remove('hidden');
+            
+            // Scroll to success message
+            formSuccess.scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        // Image modal functionality
+        function openModal(imageSrc, caption) {
+            const modal = document.getElementById('image-modal');
+            const modalImage = document.getElementById('modal-image');
+            const modalCaption = document.getElementById('modal-caption');
+            
+            modalImage.src = imageSrc;
+            modalCaption.textContent = caption || '';
+            modal.classList.remove('opacity-0', 'invisible');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal() {
+            const modal = document.getElementById('image-modal');
+            modal.classList.add('opacity-0', 'invisible');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Close modal when clicking outside the image
+        document.getElementById('image-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'image-modal') {
+                closeModal();
+            }
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenuButton.innerHTML = '<i class="fas fa-bars text-2xl" aria-hidden="true"></i>';
+                    }
+                }
+            });
+        });
+        
+        // Add shadow to navbar on scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 10) {
+                nav.classList.add('shadow-xl');
+            } else {
+                nav.classList.remove('shadow-xl');
+            }
+        });
+    </script>
+</body>
+</html>
